@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    background-color: black;
+    color: rgb(157, 255, 0);
+}
+
+.fondo{
+    background-image: url(../assets/tableroPacman.svg);
+    background-size: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+}
+
+.azulmotion {
+    position: relative;
+    animation: FantasmaAzul 5s infinite;
+}
+
+@keyframes FantasmaAzul {
+    0% {top: 130px; left: 65px;}
+    50% {top: 340px; left: 65px;}
+    100% {top: 130px; left: 65px;}
+
+}
+
+.naranjamotion {
+    position: relative;
+    animation: FantasmaNaranja 5s infinite;
+}
+
+@keyframes FantasmaNaranja {
+    0% {top: 80px; left: 600px;}
+    50% {top: 80px; left: 350px;}
+    100% {top: 80px; left: 600px;}
+}
+
+.rojomotion {
+    position: relative;
+    animation: FantasmaRojo 5s infinite;
+}
+
+@keyframes FantasmaRojo {
+    0% {top: 440px; left: 65px;}
+    50% {top: 440px; left: 515px;}
+    100% {top: 440px; left: 65px;}
+
+}
+
+.rosamotion {
+    position: relative;
+    animation: FantasmaRosa 5s infinite;
+}
+
+@keyframes FantasmaRosa {
+    0% {top: 220px; left: 275px;}
+    50% {top: 220px; left: 345px;}
+    100% {top: 220px; left: 275px;}
+}
+
+.manzanamotion {
+    position: relative;
+    animation: Manzana 21s;
+}
+
+@keyframes Manzana {
+    0% {top: 262px; left: 287px;}
+}
+
+.pacmanmotion{
+    position: relative;
+    animation: pacman 12s infinite;
+}
+
+@keyframes pacman {
+    0%  {top: 25px; left: 25px;}
+    5%  {top: 25px; left: 190px;}
+    10%  {left: 190px; top: 80px;}
+    15%  {left: 290px; top: 80px;}
+    20%  {left: 290px; top: 127px;}
+    25%  {left: 240px; top: 127px;}
+    30%  {left: 240px; top: 172px;}
+    35%  {left: 290px; top: 172px;}
+    40%  {left: 290px; top: 216px;}
+    45%  {left: 340px; top: 216px;}
+    50%  {left: 340px; top: 265px;}
+    55%  {left: 495px; top: 265px;}
+    60%  {left: 495px; top: 307px;}
+    65%  {left: 592px; top: 307px;}
+    70%  {left: 592px; top: 352px;}
+    75%  {left: 695px; top: 352px;}
+    80%  {left: 695px; top: 397px;}
+    85%  {left: 640px; top: 397px;}
+    90%  {left: 640px; top: 440px;}
+    100%  {left: 800px; top: 440px;}
+  }
